@@ -2,10 +2,9 @@ import styles from './new_page.module.css'
 import { inter, lusitana, daruma } from '../ui/fonts';
 import Image from 'next/image';
 
-export default function Page({ children }: { children: React.ReactNode }) {
+export default function Page(){
   return (
     <main className={styles.blog}>
-      {children}
       <h1>This is Title</h1>
       <p>This is a paragraph</p>
       <button className={styles.btn}>Click me!</button>
